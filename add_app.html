@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Application</title>
+<link rel="stylesheet" href="Style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="myFunctions.js"></script>
+</head>
+<body>
+<h1>AI Applications Hub</h1>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="AboutUs.html">About</a></li>
+<li><a href="apps.html">Apps</a></li>
+<li><a href="add_app.html">Add App</a></li>
+</ul>
+<h2>Add Application</h2>
+<form id="addAppForm">
+<label>Application Name:</label>
+<input id="appName" pattern="[A-Za-z]+" required>
+<label>Company Name:</label>
+<input id="companyName" pattern="[A-Za-z0-9]+" required>
+<label>Website URL:</label>
+<input type="url" id="websiteUrl" required>
+<label>Free or Paid:</label>
+<select id="isFree" required>
+<option value="">Select</option>
+<option value="true">Free</option>
+<option value="false">Paid</option>
+</select>
+<label>Field of Use:</label>
+<select id="fieldOfUse" required>
+<option value="">Select</option>
+<option value="Conversational AI">Conversational AI</option>
+<option value="Graphic Design">Graphic Design</option>
+<option value="Writing Assistant">Writing Assistant</option>
+<option value="Health">Health</option>
+<option value="Media Creation">Media Creation</option>
+<option value="Machine Learning">Machine Learning</option>
+<option value="Content Creation">Content Creation</option>
+</select>
+<label>Description:</label>
+<textarea id="description" rows="4" required></textarea>
+<label>Logo URL:</label>
+<input type="url" id="logoUrl">
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+</body>
+</html>

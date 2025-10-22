@@ -1,0 +1,121 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    background-color: #023e8a;
+    color: white;
+    padding: 10px;
+    margin: 0 0 15px 0;
+  }
+  
+  h2 {
+    color: #023e8a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #023e8a;
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #0077b6;
+  }
+  
+  a {
+    color: #0077b6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #023e8a;
+  }
+  
+  ul {
+    list-style: none;
+    background-color: #0077b6;
+    padding: 10px;
+    margin: 0 0 15px 0;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+  }
+  
+  th {
+    background-color: #023e8a;
+    color: white;
+    padding: 8px;
+    border: 1px solid #0077b6;
+  }
+  
+  td {
+    padding: 8px;
+    border: 1px solid #0077b6;
+    color: #023e8a;
+  }
+  
+  tr:hover {
+    background-color: #f1f5f9;
+  }
+  
+  label {
+    display: block;
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #023e8a;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #0077b6;
+    background-color: #f8f9fa;
+    color: #023e8a;
+  }
+  
+  button {
+    background-color: #0077b6;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #023e8a;
+  }
+  
+  form {
+    margin: 15px 0;
+  }
+  
+  .app-details {
+    background-color: #f1f5f9;
+    padding: 10px;
+    border-left: 4px solid #0077b6;
+  }
+  
